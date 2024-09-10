@@ -60,11 +60,11 @@
 ### **Training and Evaluation:**
 
 - **Training Function**  to implement the standard training loop, with the following steps:
-- **Forward pass/Forward Propagation**
-- **Loss calculation**
-- **Optimizer reset/ Optimizer Zero Gradient**
-- **Backpropagation**
-- **Optimizer step**
+  - **Forward pass/Forward Propagation**
+  - **Loss calculation**
+  - **Optimizer reset/ Optimizer Zero Gradient**
+  - **Backpropagation**
+  - **Optimizer step**
 - **Testing Function**  to evaluate the model's performance on the test set, calculating both loss and accuracy.
 - **Combined Training and Testing function** was created to  iterate over multiple epochs and record performance metrics and **store them in a dictionary per epoch for plotting.**
 
